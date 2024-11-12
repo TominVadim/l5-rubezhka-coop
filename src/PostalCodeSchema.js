@@ -11,7 +11,7 @@ class PostalValidator {
 
   isNormLength(str) {
     if (!this.minLength) {
-        return true;
+      return true;
     }
     const [, code] = `${str}`.split('_');
     return this.minLength <= code.length && code.length <= this.maxLength;
