@@ -20,7 +20,7 @@ class IpValidator {
     }
     const digits = str.split('.'); // Разбиваем строку на части по точкам
     // Проверяем, что каждое число в диапазоне от 0 до 255
-    return digits.filter((num) =>  num >= 0 && num < 256 ).length === 4;
+    return digits.filter((num) => num >= 0 && num < 256).length === 4;
   }
 
   // Метод для проверки, является ли строка действительным IP-адресом
