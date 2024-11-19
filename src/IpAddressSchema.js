@@ -25,7 +25,8 @@ class IpValidator {
 
   // Метод для проверки, является ли строка действительным IP-адресом
   isValid(str) {
-    return this.isRealIp(str) && this.isNormDigits(str); // Возвращает true, если обе проверки пройдены
+    return this.isRealIp(str) && this.isNormDigits(str);
+    // Возвращает true, если обе проверки пройдены
   }
 }
 

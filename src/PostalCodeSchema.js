@@ -24,7 +24,8 @@ class PostalValidator {
 
   // Метод для проверки, является ли строка корректным почтовым кодом
   isValid(str) {
-    return this.isCode(str) && this.isNormLength(str); // Возвращает true, если обе проверки пройдены
+    return this.isCode(str) && this.isNormLength(str);
+    // Возвращает true, если обе проверки пройдены
   }
 }
 
